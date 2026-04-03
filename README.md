@@ -42,7 +42,6 @@ Your CSV should have these columns (names are flexible):
 - Industry/sector
 - First name
 - Service description
-- B2B/B2C indicator
 
 ## Outbound Gap Logic
 
