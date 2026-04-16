@@ -34,6 +34,18 @@ python scripts/enrich_csv.py input.csv output.csv
 
 See `.claude/skills/personalize-outbound/email-sequence-template.md` for a ready-to-use 5-email sequence (2 variants for Email 1 and 2, 1 breakup) that uses the generated columns.
 
+## Additional Skill
+
+This repo also includes `.claude/skills/build-outbound-campaign/` for the fuller campaign workflow:
+
+- audit the raw CSV
+- ask only the critical setup questions
+- enrich missing emails from LinkedIn via Blitz
+- QC email safety with domain-match flags
+- extract proof points from user-provided proof docs
+- add personalization columns
+- produce sequencer-ready cold email assets
+
 ## CSV Requirements
 
 Your CSV should have these columns (names are flexible):
